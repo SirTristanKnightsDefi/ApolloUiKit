@@ -2578,14 +2578,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/Apollo",
+                href: "https://t.me/Apollo_Official_HODL",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/Apollo",
+        href: "https://twitter.com/ApolloDeFi",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -3188,9 +3188,9 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#fa113e",
-    primary: "#FD8501",
-    primaryBright: "#FD8501",
-    primaryDark: "#90250B",
+    primary: "#DE88C1",
+    primaryBright: "#DE88C1",
+    primaryDark: "#2A1950",
     secondary: "#FC8600",
     success: "#15bd69",
     warning: "#fa113e",
@@ -3198,10 +3198,10 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#f1f6f8", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeeee", tertiary: "#EFF4F5", text: "#90250B", textDisabled: "#BDC2C4", textSubtle: "#90250B", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#f1f6f8", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeeee", tertiary: "#EFF4F5", text: "#2A1950", textDisabled: "#BDC2C4", textSubtle: "#2A1950", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#FFBE26", background: "#100C18", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#FFBE26", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9C3D9B", background: "#100C18", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#9C3D9B", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
