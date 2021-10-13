@@ -120,14 +120,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/Apollo",
+        href: "https://t.me/Apollo_Official_HODL",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/Apollo",
+    href: "https://twitter.com/ApolloDeFi",
   },
 ];
 
