@@ -2442,18 +2442,18 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href, banner = _a.banner;
     var isAbsoluteUrl = href.startsWith("http");
     if (isDark) {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw';
     }
     else {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw';
     }
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Knights DeFi home page" },
-            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "Apollo Logo", className: "mobile-icon" }),
-            React__default['default'].createElement("img", { src: banner, alt: "Apollo Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Knights DeFi home page" },
-            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx", alt: "Apollo Logo", className: "mobile-icon" }),
-            React__default['default'].createElement("img", { src: banner, alt: "Knights DeFi Logo", className: "desktop-icon" })))));
+        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Apollo home page" },
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw", alt: "Apollo Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: banner, alt: "Apollo Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Apollo home page" },
+            React__default['default'].createElement("img", { src: "hhttps://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw", alt: "Apollo Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: banner, alt: "Apollo Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
 
@@ -2736,13 +2736,13 @@ var PanelFooter = function (_a) {
                 React__default['default'].createElement(Icon$T, null))));
     }
     return (React__default['default'].createElement(Container, null,
-        React__default['default'].createElement(SocialEntry, null, cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pancakeswap.info/token/0x8371a55dBEE669f16bD9e6137e2cE39ee87aE8e2", target: "_blank" },
-            React__default['default'].createElement("img", { src: "../apollo.png", alt: "Apollo Logo", style: {
+        React__default['default'].createElement(SocialEntry, null, cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pancakeswap.info/token/0x336BF524412B2a94524AA0d662f7a458a4b7Cba0", target: "_blank" },
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw", alt: "Apollo Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
-            React__default['default'].createElement("img", { src: "../apollo.png", alt: "Apollo Logo", style: {
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw", alt: "Apollo Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),

@@ -34,9 +34,9 @@ const StyledLink = styled(Link)`
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) => {
   const isAbsoluteUrl = href.startsWith("http");
   if(isDark){
-    banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw';
   } else {
-    banner = 'https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw';
   }
 
   return (
@@ -49,9 +49,9 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Knights DeFi home page">
+        <StyledLink as="a" href={href} aria-label="Apollo home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
+            src="https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw"
             alt="Apollo Logo"
             className="mobile-icon"
           />
@@ -62,15 +62,15 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
           />
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Knights DeFi home page">
+        <StyledLink to={href} aria-label="Apollo home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmTS7vUBrLYVArZiraGc3zB2tShycKPweAATV4T7njbUkx"
+            src="hhttps://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw"
             alt="Apollo Logo"
             className="mobile-icon"
           />
           <img
             src={banner}
-            alt="Knights DeFi Logo"
+            alt="Apollo Logo"
             className="desktop-icon"
           />
         </StyledLink>
