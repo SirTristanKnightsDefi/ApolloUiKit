@@ -64,7 +64,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       ) : (
         <StyledLink to={href} aria-label="Apollo home page">
           <img
-            src="hhttps://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw"
+            src="https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw"
             alt="Apollo Logo"
             className="mobile-icon"
           />

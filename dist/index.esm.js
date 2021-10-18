@@ -2450,7 +2450,7 @@ var Logo = function (_a) {
         isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Apollo home page" },
             React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw", alt: "Apollo Logo", className: "mobile-icon" }),
             React.createElement("img", { src: banner, alt: "Apollo Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Apollo home page" },
-            React.createElement("img", { src: "hhttps://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw", alt: "Apollo Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmX6ob4q3DogM6o6vXGjc1n62xCvL7dBD1ZKHohnujJGHw", alt: "Apollo Logo", className: "mobile-icon" }),
             React.createElement("img", { src: banner, alt: "Apollo Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
